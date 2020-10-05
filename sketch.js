@@ -9,7 +9,7 @@ function setup() {
     var canvas = createCanvas(1250, 580);
     engine = Engine.create();
     world = engine.world;
-    ground = new Ground(width/2, height, 1500, 15);
+//     ground = new Ground(width/2, height, 1500, 15);
     ground1 = new Ground((width/2)+75, height/2, 300, 15);
     ground2 = new Ground(width-200, height-100, 300, 15);
 
@@ -103,7 +103,7 @@ function draw() {
     box30.display();
     box31.display();
     box32.display();
-    ground.display();
+//     ground.display();
     ground1.display();
     ground2.display();
     hex.display();
